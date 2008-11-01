@@ -4,9 +4,8 @@ use strict;
 use 5.006;
 use utf8;
 use self;
-require UNIVERSAL::require;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 my $last = "";
 
