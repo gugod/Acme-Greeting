@@ -1,19 +1,24 @@
---- 
-abstract: ~
-author: Kang-min Liu  C<< <gugod@gugod.org> >>
-build_requires: 
+---
+abstract: 'Greeting from Perl.'
+author:
+  - 'Kang-min Liu  C<< <gugod@gugod.org> >>'
+build_requires:
   Test::More: 0.42
 distribution_type: module
-generated_by: Module::Install version 0.67
+generated_by: 'Module::Install version 0.77'
 license: perl
-meta-spec: 
-  url: http://module-build.sourceforge.net/META-spec-v1.3.html
-  version: 1.3
-no_index: 
-  directory: 
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+module_name: Acme::Greeting
+name: Acme-Greeting
+no_index:
+  directory:
     - inc
     - t
-requires: 
+requires:
   perl: 5.6.0
   self: 0
-version: 0.0.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0.2
