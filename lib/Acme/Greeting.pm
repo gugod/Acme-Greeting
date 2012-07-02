@@ -5,7 +5,7 @@ use v5.12.3;
 use utf8;
 use self;
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 my $last = "";
 
