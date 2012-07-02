@@ -1,7 +1,7 @@
 package Acme::Greeting;
-use warnings;
 use strict;
-use 5.008;
+use warnings;
+use v5.12.3;
 use utf8;
 use self;
 
